@@ -1,0 +1,41 @@
+.data-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddcaca;
+    border-radius: 4px;
+    margin: 5px 0;
+  }
+  
+  .edit-input {
+    border: 1px solid #c88888;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: #82a48a;
+    flex-grow: 1;
+  }
+  
+  .edit-button,
+  .save-button,
+  .delete-button {
+    background-color: #5f87b1;
+    color: rgb(242, 236, 236);
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .edit-button {
+    background-color: #28a745;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
